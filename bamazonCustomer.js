@@ -125,7 +125,7 @@ function continueShopping() {
       if (answer.continueShopping === "yes") {
         // if the user selects yes the userShop function is called again
         userShop();
-        // Otherwise...
+        // if not it ends the connection and leaves the following message
       } else {
         console.log("Thanks, have a great day!");
         // End the connection
