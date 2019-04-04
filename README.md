@@ -8,7 +8,7 @@ This project is a light, Amazon shopping clone. Included right now is only the c
 - Select an item to purchase
 - Select how many of the item to purchase
 - See the updated inventory numbers,
-- And lastly choose to shop again.
+- Choose to exit or shop again.
 
 ## Technologies Used
 
