@@ -17,7 +17,7 @@ var connection = mysql.createConnection({
 //   console.log("connected as id " + connection.threadId + "\n");
 // });
 
-//these are the variable I used to track how much stock there was an any given item
+//these are the variable I used to track how much stock there was of an any given item
 var stock;
 var updatedStock;
 
@@ -45,11 +45,7 @@ function userShop() {
       if (err) throw err;
       console.log("\n");
       console.table(res);
-      //   console.log(
-      //     "----------------------------------------------------------------"
-      //   );
-      // This is where I store the user's answers from inquirer.
-
+      // This is where I store the user's answers from inquirer
       var userSelections = [];
       // Loop thru products and add to array
       for (var j = 0; j < res.length; j++) {
