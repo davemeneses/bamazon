@@ -10,6 +10,12 @@ This project is a light, Amazon shopping clone. Included right now is only the c
 - See the updated inventory numbers,
 - Choose to exit or shop again.
 
+## Example
+
+Here you see me starting the app, make a purchase, choose to continue shopping, viewing up the updated inventory, making a second purchase, then exiting the app.
+
+![bamazon gif](./bamazon.gif)
+
 ## Technologies Used
 
 - Node

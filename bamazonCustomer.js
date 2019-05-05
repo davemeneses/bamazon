@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 8889,
   user: "root",
-  password: "",
+  password: "root",
   database: "bamazon"
 });
 
@@ -21,7 +21,7 @@ var connection = mysql.createConnection({
 var stock;
 var updatedStock;
 
-// this function makes sure the customer is entering a positing number I couldn't get it to fully work so I just commented it out.
+// this function makes sure the customer is entering a positive number I couldn't get it to fully work so I just commented it out.
 // function validation(value) {
 //   // Number.isInteger() is cool because it make's sure the customer is entering an integer. parseFloat make a string a number, or in this case an integer
 //   var integer = Number.isInteger(parseFloat(value));
@@ -104,9 +104,6 @@ function userShop() {
   );
 }
 
-// this calls the userShop().
-userShop();
-
 function continueShopping() {
   inquirer
     .prompt([
@@ -129,3 +126,6 @@ function continueShopping() {
       }
     });
 }
+
+// this calls the userShop().
+userShop();
