@@ -129,3 +129,8 @@ function continueShopping() {
 
 // this calls the userShop().
 userShop();
+
+function tom(n) {
+  tomNum = n + 1;
+  return tomNum;
+}
